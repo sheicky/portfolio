@@ -195,13 +195,13 @@ hr {
   padding-bottom: 10px;
 }
 .card {
-  grid-column: span 3;
+  grid-column: span 4;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 5px 5px 8px;
+  padding: 6px 6px 10px;
 }
-.card a { color: var(--text); }
+.card > a { color: var(--text); }
 .card img {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -209,9 +209,22 @@ hr {
   border-radius: 4px;
   display: block;
 }
-.cdesc { font-size: 14.5px; margin-top: 8px; line-height: 1.3; }
+.cdesc {
+  font-size: 14.5px;
+  margin-top: 8px;
+  line-height: 1.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.cmeta { flex-shrink: 0; }
+.cmeta a { font-size: 13px; color: var(--muted); }
 @media (max-width: 760px) {
   .card { grid-column: span 6; }
+}
+@media (max-width: 460px) {
+  .card { grid-column: span 12; }
 }
 
 #foot { color: var(--muted); font-size: 14px; padding-bottom: 40px; }
