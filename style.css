@@ -184,6 +184,7 @@ hr {
   margin-bottom: 12px;
 }
 .proj-name { font-weight: bold; }
+.proj-links { font-size: 14px; color: var(--muted); white-space: nowrap; }
 
 #foot { color: var(--muted); font-size: 14px; padding-bottom: 40px; }
 #foot p { margin: 6px 0; }
