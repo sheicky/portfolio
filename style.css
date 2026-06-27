@@ -220,6 +220,11 @@ hr {
 }
 .cmeta { flex-shrink: 0; }
 .cmeta a { font-size: 13px; color: var(--muted); }
+.card.cert img {
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #ffffff;
+}
 @media (max-width: 760px) {
   .card { grid-column: span 6; }
 }
