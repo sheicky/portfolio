@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheick Ali Simpore</title>
+  <meta name="description" content="Sheick Ali Simpore — founder & builder, AI engineer. Building Zaka. Personal site, projects, and writing." />
+  <meta property="og:title" content="Sheick Ali Simpore" />
+  <meta property="og:description" content="Founder & builder · AI engineer." />
+  <meta property="og:image" content="assets/profile.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="site-header">
+      <img class="avatar" src="assets/profile.png" alt="Sheick Ali Simpore" />
+      <div class="intro">
+        <div class="name-row">
+          <h1>Sheick Ali Simpore</h1>
+          <button id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
+        </div>
+        <p class="tagline">Founder &amp; builder · AI engineer</p>
+        <nav class="links" aria-label="Social links">
+          <a href="https://github.com/sheicky" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/pensas/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://sheick.substack.com/p/automated-machine-learning-pipeline" target="_blank" rel="noopener">Substack</a>
+          <a href="mailto:sheick-ali.simpore@efrei.net">Email</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="bio">
+      <p>I'm a founder and builder working at the intersection of AI and real products. I spent three years at Caisse des Dépôts, where I migrated a 20+ tester QA stack to open source (saving €20K/year) and built an internal AI tool that flipped QA testers from writers to reviewers.</p>
+      <p>I shipped 14+ AI apps during the Headstarter residency and evaluate frontier LLMs as an RLHF code expert at Outlier. I'm finishing an Engineer's degree (Master's) at Efrei Paris and am Azure certified (AZ-900, AI-900).</p>
+    </section>
+
+    <section id="now">
+      <h2>Now</h2>
+      <ul class="entry-list">
+        <li>Building <a href="https://zaka-bf.com" target="_blank" rel="noopener">Zaka</a> — a real estate marketplace for Burkina Faso, live in 9+ cities, with every listing tied to the official land registry (SIF).</li>
+        <li>On international exchange at Yuan Ze University, Taiwan — Data Science &amp; Deep Learning.</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="entry-list">
+        <li class="entry"><strong>Founder &amp; CEO</strong>, <a href="https://zaka-bf.com" target="_blank" rel="noopener">Zaka</a> <span class="entry-meta">2025 — present</span><br />Real estate marketplace for Burkina Faso, wired into the official SIF land registry.</li>
+        <li class="entry"><strong>QA Automation &amp; Test Engineering Apprentice</strong>, Informatique CDC <span class="entry-meta">2023 — 2026</span><br />Built an internal test automation platform; migrated the QA stack to open source and built AI tooling for BDD generation.</li>
+        <li class="entry"><strong>Software Engineering Resident</strong>, Headstarter <span class="entry-meta">2024 — 2025</span><br />Shipped 14+ production AI apps: RAG pipelines, fine-tuned LLMs, autonomous agents.</li>
+        <li class="entry"><strong>AI Code Expert (RLHF)</strong>, Outlier AI <span class="entry-meta">2024 — present</span><br />Run RLHF evaluations on frontier LLMs across full GitHub projects.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="entry-list">
+        <li class="entry"><strong>LLM Evaluation Platform</strong> — Streamlit + DeepEval app benchmarking Gemini Pro vs LLaMA with a RAG pipeline measuring precision, recall, and hallucination rate. <a href="https://github.com/sheicky/LLM_EVALUATION" target="_blank" rel="noopener">Code</a></li>
+        <li class="entry"><strong>SaChi-ASR</strong> — OpenAI Whisper fine-tuned on Mooré, a low-resource African language, published on Hugging Face. <a href="https://huggingface.co/sheickydollar/SaChi-ASR" target="_blank" rel="noopener">Model</a></li>
+        <li class="entry"><strong>AI Answer Engine</strong> — Perplexity-style answer engine on Gemini Flash 2.0 with multi-source RAG and source citations. <a href="https://github.com/sheicky/ai-answer-engine" target="_blank" rel="noopener">Code</a></li>
+        <li class="entry"><strong>Pentagram</strong> — self-hosted SDXL-Turbo image generation on Modal GPUs with ~2s end-to-end latency. <a href="https://github.com/sheicky/Pentagram" target="_blank" rel="noopener">Code</a></li>
+        <li class="entry"><strong>Autonomous ML Agent</strong> — LLM-driven AutoML platform with Optuna Bayesian tuning and parallel model training. <a href="https://github.com/sheicky/Autonomous-Machine-Learning-Agent" target="_blank" rel="noopener">Code</a></li>
+      </ul>
+    </section>
+
+    <section id="writing">
+      <h2>Writing</h2>
+      <ul class="entry-list">
+        <li><a href="https://sheick.substack.com/p/automated-machine-learning-pipeline" target="_blank" rel="noopener">Automated Machine Learning Pipeline</a> — a write-up on the LLM-driven AutoML agent.</li>
+      </ul>
+    </section>
+
+    <footer class="site-footer">
+      <p>Paris, France · <a href="mailto:sheick-ali.simpore@efrei.net">sheick-ali.simpore@efrei.net</a></p>
+    </footer>
+  </main>
+  <script src="theme.js"></script>
+</body>
+</html>
