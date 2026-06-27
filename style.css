@@ -95,16 +95,40 @@ a {
 a:hover { text-decoration: underline; }
 
 h2 {
-  font-size: 1.05rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text);
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.35rem;
   margin: 2.5rem 0 1rem;
 }
 
 section p { margin: 0 0 1rem; }
+
+.section-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: -0.25rem;
+}
+
+.timeline { margin-top: 0.5rem; }
+
+.period {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.period .year {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.1rem;
+}
+
+.period p { margin: 0; }
 
 .entry-list {
   list-style: none;
@@ -140,4 +164,6 @@ a:focus-visible,
   .name-row { justify-content: center; }
   .links { justify-content: center; }
   .entry-meta { float: none; display: block; }
+  .period { grid-template-columns: 1fr; gap: 0.15rem; }
+  .period .year { padding-top: 0; }
 }
