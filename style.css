@@ -117,7 +117,7 @@ hr {
 #history { margin-top: 6px; }
 .entry {
   display: grid;
-  grid-template-columns: 64px 76px 1fr;
+  grid-template-columns: 64px 104px 1fr;
   column-gap: 6px;
   align-items: stretch;
 }
@@ -146,13 +146,13 @@ hr {
   border: 2px solid var(--bg);
 }
 .ico img {
-  width: 52px;
-  height: 52px;
+  width: 88px;
+  height: 50px;
   object-fit: contain;
   background: var(--tile);
   border: 1px solid var(--border);
   border-radius: 7px;
-  padding: 4px;
+  padding: 5px 6px;
 }
 .desc {
   font-size: 16.5px;
@@ -161,10 +161,10 @@ hr {
 }
 
 @media (max-width: 620px) {
-  .entry { grid-template-columns: 44px 1fr; }
+  .entry { grid-template-columns: 72px 1fr; }
   .timespan { grid-column: 1 / -1; text-align: left; padding-right: 0; padding-bottom: 4px; }
   .ico { padding-left: 10px; }
-  .ico img { width: 40px; height: 40px; }
+  .ico img { width: 64px; height: 38px; }
   .desc { padding-left: 12px; }
 }
 
